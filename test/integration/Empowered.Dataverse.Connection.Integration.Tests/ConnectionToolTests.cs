@@ -50,7 +50,7 @@ public class ConnectionToolTests : IDisposable
             );
     }
 
-    [Fact]
+    [Fact(Skip = "missing ci configuration")]
     public void ShouldAddInteractiveConnection()
     {
         const string connectionName = "connection";
@@ -75,7 +75,7 @@ public class ConnectionToolTests : IDisposable
             });
     }
 
-    [Fact]
+    [Fact(Skip = "missing ci configuration")]
     public void ShouldAddAndTestClientSecretConnection()
     {
         const string connectionName = "connection";
@@ -176,7 +176,7 @@ public class ConnectionToolTests : IDisposable
             });
     }
 
-    [Fact]
+    [Fact(Skip = "missing ci configuration")]
     public void ShouldInjectNamedServiceClient()
     {
         ShouldAddAndTestClientSecretConnection();
