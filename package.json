@@ -60,7 +60,8 @@
         {
           "assets": [
             "CHANGELOG.md",
-            "./src/Empowered.Dataverse.Connection/Empowered.Dataverse.Connection.csproj"
+            "./src/Empowered.Dataverse.Connection/Empowered.Dataverse.Connection.csproj",
+            "./src/Directory.Build.props"
           ],
           "message": "chore(release): ${nextRelease.version} [skip ci]"
         }
