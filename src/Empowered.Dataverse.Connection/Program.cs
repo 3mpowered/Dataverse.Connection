@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
 using CommandDotNet;
 using CommandDotNet.Builders;
 using CommandDotNet.Builders.ArgumentDefaults;
