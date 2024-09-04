@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+      <PackageReference Include="CommandDotNet.Spectre.Testing" Version="3.0.1" />
+      <PackageReference Include="CommandDotNet.TestTools" Version="6.0.3" />
+      <PackageReference Include="Spectre.Console.Testing" Version="0.49.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\src\Empowered.Dataverse.Connection\Empowered.Dataverse.Connection.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="local.settings.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+        <None Update="local/certificate.pfx">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+    <ItemGroup>
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Empowered.Dataverse.Connection", "src\Empowered.Dataverse.Connection\Empowered.Dataverse.Connection.csproj", "{F4D9FC1A-83D8-4D43-A123-D268CAA3083A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5FD0850C-5E17-4313-8AC7-058217472192}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{890F8F00-CDD2-4C06-9401-DD7C79CA6F4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Empowered.Dataverse.Connection.Integration.Tests", "test\integration\Empowered.Dataverse.Connection.Integration.Tests\Empowered.Dataverse.Connection.Integration.Tests.csproj", "{D726805E-51F5-4D6D-B1EF-2DAE8A74E691}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Empowered.Dataverse.Connection.Commands", "src\Empowered.Dataverse.Connection.Commands\Empowered.Dataverse.Connection.Commands.csproj", "{EF2BF52F-0D52-471A-8C8D-83AD86705DAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Empowered.Dataverse.Connection.Commands.Tests", "test\unit\Empowered.Dataverse.Connection.Commands.Tests\Empowered.Dataverse.Connection.Commands.Tests.csproj", "{4E326E8B-E641-41B3-82D7-ED1861E5FB3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4D9FC1A-83D8-4D43-A123-D268CAA3083A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4D9FC1A-83D8-4D43-A123-D268CAA3083A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4D9FC1A-83D8-4D43-A123-D268CAA3083A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4D9FC1A-83D8-4D43-A123-D268CAA3083A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D726805E-51F5-4D6D-B1EF-2DAE8A74E691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D726805E-51F5-4D6D-B1EF-2DAE8A74E691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D726805E-51F5-4D6D-B1EF-2DAE8A74E691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D726805E-51F5-4D6D-B1EF-2DAE8A74E691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF2BF52F-0D52-471A-8C8D-83AD86705DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF2BF52F-0D52-471A-8C8D-83AD86705DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF2BF52F-0D52-471A-8C8D-83AD86705DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF2BF52F-0D52-471A-8C8D-83AD86705DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E326E8B-E641-41B3-82D7-ED1861E5FB3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E326E8B-E641-41B3-82D7-ED1861E5FB3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E326E8B-E641-41B3-82D7-ED1861E5FB3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E326E8B-E641-41B3-82D7-ED1861E5FB3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F4D9FC1A-83D8-4D43-A123-D268CAA3083A} = {5FD0850C-5E17-4313-8AC7-058217472192}
+		{EF2BF52F-0D52-471A-8C8D-83AD86705DAB} = {5FD0850C-5E17-4313-8AC7-058217472192}
+		{D726805E-51F5-4D6D-B1EF-2DAE8A74E691} = {890F8F00-CDD2-4C06-9401-DD7C79CA6F4C}
+		{4E326E8B-E641-41B3-82D7-ED1861E5FB3B} = {890F8F00-CDD2-4C06-9401-DD7C79CA6F4C}
+	EndGlobalSection
+EndGlobal

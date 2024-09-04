@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Library</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\src\Empowered.Dataverse.Connection.Commands\Empowered.Dataverse.Connection.Commands.csproj" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <PackageReference Include="FakeItEasy" Version="8.3.0" />
+      <PackageReference Include="Spectre.Console.Testing" Version="0.49.1" />
+      <PackageReference Update="FluentAssertions" Version="6.12.0" />
+    </ItemGroup>
+
+
+</Project>
