@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/3mpowered/Dataverse.Connection/compare/v1.0.0...v1.0.1) (2024-09-04)
+
+
+### Bug Fixes
+
+* remove alpha from version ([1f2db3f](https://github.com/3mpowered/Dataverse.Connection/commit/1f2db3f07506aa84be37fb3b0864255f0b3f75a3))
+
 # 1.0.0 (2024-09-04)
 
 
