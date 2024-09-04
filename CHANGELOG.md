@@ -1,3 +1,10 @@
+# [1.0.0-alpha.4](https://github.com/3mpowered/Dataverse.Connection/compare/v1.0.0-alpha.3...v1.0.0-alpha.4) (2024-09-04)
+
+
+### Features
+
+* use Empowered.CommandLine.Extensions package as app runner ([ae12722](https://github.com/3mpowered/Dataverse.Connection/commit/ae12722f7d9b03b728278b7bc66803a5cca9df31))
+
 # [1.0.0-alpha.3](https://github.com/3mpowered/Dataverse.Connection/compare/v1.0.0-alpha.2...v1.0.0-alpha.3) (2024-08-31)
 
 
