@@ -1,4 +1,4 @@
-﻿using Empowered.Dataverse.Connection.Commands.Extensions;
+﻿using Empowered.CommandLine.Extensions.Extensions;
 
 namespace Empowered.Dataverse.Connection.Commands.Constants;
 
