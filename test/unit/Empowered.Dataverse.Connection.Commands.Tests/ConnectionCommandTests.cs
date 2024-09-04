@@ -5,6 +5,7 @@ using Empowered.Dataverse.Connection.Client.Contracts;
 using Empowered.Dataverse.Connection.Commands.Arguments;
 using Empowered.Dataverse.Connection.Commands.Constants;
 using Empowered.Dataverse.Connection.Commands.Extensions;
+using Empowered.Dataverse.Connection.Commands.Tests.Extensions;
 using Empowered.Dataverse.Connection.Store.Contracts;
 using Empowered.Dataverse.Connection.Store.Model;
 using FakeItEasy;

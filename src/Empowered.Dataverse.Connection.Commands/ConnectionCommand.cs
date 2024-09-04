@@ -1,8 +1,8 @@
 using CommandDotNet;
+using Empowered.CommandLine.Extensions.Extensions;
 using Empowered.Dataverse.Connection.Client.Contracts;
 using Empowered.Dataverse.Connection.Commands.Arguments;
 using Empowered.Dataverse.Connection.Commands.Constants;
-using Empowered.Dataverse.Connection.Commands.Extensions;
 using Empowered.Dataverse.Connection.Store.Contracts;
 using Microsoft.Crm.Sdk.Messages;
 using Microsoft.PowerPlatform.Dataverse.Client.Utils;
@@ -85,7 +85,7 @@ public class ConnectionCommand(IAnsiConsole console,
     public async Task<int> Upsert(ConnectionArguments arguments)
     {
         var connectionName = arguments.Name;
-        
+
         console.Info(Info.Upserting(connectionName));
         var connection = arguments.Clone();
         connectionStore.Upsert(connection, true);
